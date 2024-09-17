@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Aesh Goswami - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  
+  <meta
+    name="description"
+    content="Explore the portfolio of Aesh Goswami, a skilled web developer specializing in creating innovative and efficient web solutions. Discover projects, skills, and expertise in web development."
+  />
+  <meta name="author" content="Aesh Goswami" />
+  <meta
+    name="keywords"
+    content="Aesh Goswami, Web Developer, Web Development Portfolio, Creative Web Solutions, HTML, CSS, JavaScript, Front-end Developer, Back-end Developer, Full Stack Developer"
+  />
+  <meta
+    property="og:title"
+    content="Creative Web Solutions by Aesh Goswami: A Web Developer's Portfolio"
+  />
+  <meta
+    property="og:description"
+    content="Explore the portfolio of Aesh Goswami, a skilled web developer specializing in creating innovative and efficient web solutions. Discover projects, skills, and expertise in web development."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.aeshgoswamiportfolio.com" />
+  <!-- Replace with actual URL -->
+  <link rel="icon" href="images/favicon1.png" type="image/x-icon" />
+  <!-- Alternative icon formats for different devices -->
+  <link
+    rel="icon"
+    href="images/favicon2.png"
+    sizes="32x32"
+    type="image/png"
+  />
+  <link
+    rel="icon"
+    href="images/favicon1.png"
+    sizes="64x64"
+    type="image/png"
+  />
+</head>
+<body>
+
+     <audio loop autoplay> 
+      <source src="music.mp3" type="audio/mp3">
+    </audio>
+
+     <!--NavBar Section-->
+
+     <div class="sidebar">
+        <i
+          class="fa-solid fa-xmark"
+          onclick="hideSidebar()"
+          style="margin-top: 20px; font-size: 2rem"
+        ></i>
+        <ul>
+          <a href="/aeshgoswami/main.html"><li>Home</li></a>
+  
+          <a href="/aeshgoswami/about.html"><li>About</li></a>
+  
+          <a href="/aeshgoswami/projects.html"><li>Projects</li></a>
+  
+          <a href="/aeshgoswami/projects.html"><li>Skills</li></a>
+  
+          <a href="/aeshgoswami/contact.html"><li>Contact</li></a>
+        </ul>
+  
+        <a
+          class="side-btn"
+          href="My resume.pdf"
+          download
+          class="download-btn"
+          ><button>Download CV</button></a
+        >
+  
+        <img src="images/sidebar gif.gif" width="200px" />
+      </div>
+  
+      <div class="navbar">
+        <div class="navbar-left">
+          <h2>Aesh <span>Goswami</span></h2>
+        </div>
+        <div class="navbar-middle">
+          <ul>
+            <a href="/aeshgoswami/main.html"><li>Home</li></a>
+  
+            <a href="/aeshgoswami/about.html"><li>About</li></a>
+  
+            <a href="/aeshgoswami/projects.html"><li>Projects</li></a>
+  
+            <a href="/aeshgoswami/projects.html"><li>Skills</li></a>
+  
+            <a href="/aeshgoswami/contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+        <div class="navbar-right">
+          <a href="My resume.pdf" download class="download-btn"
+            ><button>Download CV</button></a
+          >
+        </div>
+  
+        <i class="fa-solid fa-bars" onclick="showSidebar()"></i>
+      </div>
+
+      <div class="contact">
+        <div class="contact-left">
+          <img src="images/contact.gif" alt="contact">
+        </div>
+
+        <div class="contact-right">
+            <h2>Message Us</h2>
+            <form action="https://formspree.io/f/xovaapkl" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" required placeholder="John Smith">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="abc@gmail.com">
+                <br>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="123-456-7890">
+                <br>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter message here..."></textarea>
+
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+      </div>
+     
+
+  
+      <!--Footer Section-->
+      <div class="footer">
+        <h2>Aesh <span>Goswami</span></h2>
+        <p>Living, learning, & leveling up one day at a time.</p>
+        <div class="footer-media">
+         <a href="mailto: aeshgoswamiwd@gmail.com"> <i class="fa-regular fa-envelope"></i> </a>
+         <a href="https://www.instagram.com/aeshgoswami_wd?igsh=bGloODl6ZXh0MmJq&utm_source=qr"> <i class="fa-brands fa-instagram"></i> </a>
+         <a href="https://www.facebook.com/aeshgoswamiwd?mibextid=LQQJ4d"> <i class="fa-brands fa-facebook"></i> </a>
+        <a href="https://github.com/aeshwd">  <i class="fa-brands fa-github"></i> </a>
+         <a href="tel: +916006015291"> <i class="fa-solid fa-phone"></i> </a>
+  
+        </div>
+  
+        <p style="color: white;">Website designed by <i class="fa-solid fa-heart" style="color: red;"></i> </p>
+      </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
